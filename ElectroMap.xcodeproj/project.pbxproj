@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F5C822D2A7D1814007B35B0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C822C2A7D1814007B35B0 /* MainView.swift */; };
+		5F74A22F2A7C8D8A009AA8D5 /* ElectroStationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F74A22E2A7C8D8A009AA8D5 /* ElectroStationModel.swift */; };
+		5F74A2312A7C8E03009AA8D5 /* ElectroStationApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F74A2302A7C8E03009AA8D5 /* ElectroStationApiService.swift */; };
+		5F74A2372A7C9345009AA8D5 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F74A2362A7C9345009AA8D5 /* MainViewModel.swift */; };
+		5F74A2392A7CA45C009AA8D5 /* UserLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F74A2382A7CA45C009AA8D5 /* UserLocationService.swift */; };
 		5FB35C392A7BF3D9001088D1 /* ElectroMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB35C382A7BF3D9001088D1 /* ElectroMapApp.swift */; };
 		5FB35C3B2A7BF3D9001088D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB35C3A2A7BF3D9001088D1 /* ContentView.swift */; };
 		5FB35C3D2A7BF3DB001088D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB35C3C2A7BF3DB001088D1 /* Assets.xcassets */; };
 		5FB35C402A7BF3DB001088D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB35C3F2A7BF3DB001088D1 /* Preview Assets.xcassets */; };
+		5FB35C4A2A7BFD97001088D1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5FB35C492A7BFD97001088D1 /* Alamofire */; };
+		5FB35C552A7BFDE5001088D1 /* GoogleMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB35C542A7BFDE5001088D1 /* GoogleMapViewModel.swift */; };
+		5FB35C572A7BFDF5001088D1 /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB35C562A7BFDF5001088D1 /* GoogleMapView.swift */; };
+		BFB2A83E0AEDC58F1937D2E7 /* Pods_ElectroMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8FA0F4599FEAC7998F2B49D /* Pods_ElectroMap.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F5C822C2A7D1814007B35B0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5F74A22E2A7C8D8A009AA8D5 /* ElectroStationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectroStationModel.swift; sourceTree = "<group>"; };
+		5F74A2302A7C8E03009AA8D5 /* ElectroStationApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectroStationApiService.swift; sourceTree = "<group>"; };
+		5F74A2362A7C9345009AA8D5 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		5F74A2382A7CA45C009AA8D5 /* UserLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationService.swift; sourceTree = "<group>"; };
 		5FB35C352A7BF3D9001088D1 /* ElectroMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectroMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB35C382A7BF3D9001088D1 /* ElectroMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectroMapApp.swift; sourceTree = "<group>"; };
 		5FB35C3A2A7BF3D9001088D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5FB35C3C2A7BF3DB001088D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FB35C3F2A7BF3DB001088D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FB35C542A7BFDE5001088D1 /* GoogleMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapViewModel.swift; sourceTree = "<group>"; };
+		5FB35C562A7BFDF5001088D1 /* GoogleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
+		8EEB4F27F1DF55843EA91878 /* Pods-ElectroMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectroMap.debug.xcconfig"; path = "Target Support Files/Pods-ElectroMap/Pods-ElectroMap.debug.xcconfig"; sourceTree = "<group>"; };
+		DA5B7C92FC2F71028EE8C838 /* Pods-ElectroMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectroMap.release.xcconfig"; path = "Target Support Files/Pods-ElectroMap/Pods-ElectroMap.release.xcconfig"; sourceTree = "<group>"; };
+		E8FA0F4599FEAC7998F2B49D /* Pods_ElectroMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElectroMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +45,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB2A83E0AEDC58F1937D2E7 /* Pods_ElectroMap.framework in Frameworks */,
+				5FB35C4A2A7BFD97001088D1 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F5C82292A7D17F7007B35B0 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				5F5C822B2A7D1801007B35B0 /* ViewModel */,
+				5F5C822A2A7D17FD007B35B0 /* View */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		5F5C822A2A7D17FD007B35B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F5C822C2A7D1814007B35B0 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F5C822B2A7D1801007B35B0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5F74A2362A7C9345009AA8D5 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5F74A22B2A7C8639009AA8D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F74A22E2A7C8D8A009AA8D5 /* ElectroStationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F74A22D2A7C8D3B009AA8D5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5F74A2302A7C8E03009AA8D5 /* ElectroStationApiService.swift */,
+				5F74A2382A7CA45C009AA8D5 /* UserLocationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		5FB35C2C2A7BF3D9001088D1 = {
 			isa = PBXGroup;
 			children = (
 				5FB35C372A7BF3D9001088D1 /* ElectroMap */,
 				5FB35C362A7BF3D9001088D1 /* Products */,
+				AB4202C088DE88B606AE955C /* Pods */,
+				6C4E258577CF381ECCDD952D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +116,8 @@
 		5FB35C372A7BF3D9001088D1 /* ElectroMap */ = {
 			isa = PBXGroup;
 			children = (
-				5FB35C382A7BF3D9001088D1 /* ElectroMapApp.swift */,
-				5FB35C3A2A7BF3D9001088D1 /* ContentView.swift */,
-				5FB35C3C2A7BF3DB001088D1 /* Assets.xcassets */,
+				5FB35C4F2A7BFDAE001088D1 /* Assets */,
+				5FB35C4E2A7BFDAA001088D1 /* Sources */,
 				5FB35C3E2A7BF3DB001088D1 /* Preview Content */,
 			);
 			path = ElectroMap;
@@ -67,6 +131,101 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		5FB35C4B2A7BFD9F001088D1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5FB35C382A7BF3D9001088D1 /* ElectroMapApp.swift */,
+				5FB35C3A2A7BF3D9001088D1 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5FB35C4C2A7BFDA2001088D1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5FB35C502A7BFDCA001088D1 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5FB35C4D2A7BFDA5001088D1 /* BL */ = {
+			isa = PBXGroup;
+			children = (
+				5F74A22D2A7C8D3B009AA8D5 /* Services */,
+				5F74A22B2A7C8639009AA8D5 /* Models */,
+			);
+			path = BL;
+			sourceTree = "<group>";
+		};
+		5FB35C4E2A7BFDAA001088D1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5FB35C4B2A7BFD9F001088D1 /* App */,
+				5FB35C4C2A7BFDA2001088D1 /* UI */,
+				5FB35C4D2A7BFDA5001088D1 /* BL */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5FB35C4F2A7BFDAE001088D1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5FB35C3C2A7BF3DB001088D1 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5FB35C502A7BFDCA001088D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F5C82292A7D17F7007B35B0 /* MainView */,
+				5FB35C512A7BFDCE001088D1 /* GoogleMap */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5FB35C512A7BFDCE001088D1 /* GoogleMap */ = {
+			isa = PBXGroup;
+			children = (
+				5FB35C532A7BFDD7001088D1 /* ViewModel */,
+				5FB35C522A7BFDD4001088D1 /* View */,
+			);
+			path = GoogleMap;
+			sourceTree = "<group>";
+		};
+		5FB35C522A7BFDD4001088D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5FB35C562A7BFDF5001088D1 /* GoogleMapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5FB35C532A7BFDD7001088D1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5FB35C542A7BFDE5001088D1 /* GoogleMapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6C4E258577CF381ECCDD952D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8FA0F4599FEAC7998F2B49D /* Pods_ElectroMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB4202C088DE88B606AE955C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EEB4F27F1DF55843EA91878 /* Pods-ElectroMap.debug.xcconfig */,
+				DA5B7C92FC2F71028EE8C838 /* Pods-ElectroMap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +233,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FB35C432A7BF3DB001088D1 /* Build configuration list for PBXNativeTarget "ElectroMap" */;
 			buildPhases = (
+				53DA9E4D6F56F5327D5665EF /* [CP] Check Pods Manifest.lock */,
 				5FB35C312A7BF3D9001088D1 /* Sources */,
 				5FB35C322A7BF3D9001088D1 /* Frameworks */,
 				5FB35C332A7BF3D9001088D1 /* Resources */,
+				1099C454BCFFDE98D1C62E46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ElectroMap;
+			packageProductDependencies = (
+				5FB35C492A7BFD97001088D1 /* Alamofire */,
+			);
 			productName = ElectroMap;
 			productReference = 5FB35C352A7BF3D9001088D1 /* ElectroMap.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +275,9 @@
 				Base,
 			);
 			mainGroup = 5FB35C2C2A7BF3D9001088D1;
+			packageReferences = (
+				5FB35C482A7BFD97001088D1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 5FB35C362A7BF3D9001088D1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,13 +299,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1099C454BCFFDE98D1C62E46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElectroMap/Pods-ElectroMap-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElectroMap/Pods-ElectroMap-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElectroMap/Pods-ElectroMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53DA9E4D6F56F5327D5665EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElectroMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5FB35C312A7BF3D9001088D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F74A2372A7C9345009AA8D5 /* MainViewModel.swift in Sources */,
+				5F5C822D2A7D1814007B35B0 /* MainView.swift in Sources */,
+				5FB35C572A7BFDF5001088D1 /* GoogleMapView.swift in Sources */,
+				5F74A22F2A7C8D8A009AA8D5 /* ElectroStationModel.swift in Sources */,
 				5FB35C3B2A7BF3D9001088D1 /* ContentView.swift in Sources */,
 				5FB35C392A7BF3D9001088D1 /* ElectroMapApp.swift in Sources */,
+				5F74A2392A7CA45C009AA8D5 /* UserLocationService.swift in Sources */,
+				5F74A2312A7C8E03009AA8D5 /* ElectroStationApiService.swift in Sources */,
+				5FB35C552A7BFDE5001088D1 /* GoogleMapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +477,7 @@
 		};
 		5FB35C442A7BF3DB001088D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EEB4F27F1DF55843EA91878 /* Pods-ElectroMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,6 +487,10 @@
 				DEVELOPMENT_TEAM = J3WRB547W6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Test Location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Test Location";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Test Location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Test Location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -290,6 +511,7 @@
 		};
 		5FB35C452A7BF3DB001088D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA5B7C92FC2F71028EE8C838 /* Pods-ElectroMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +521,10 @@
 				DEVELOPMENT_TEAM = J3WRB547W6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Test Location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Test Location";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Test Location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Test Location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +565,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5FB35C482A7BFD97001088D1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5FB35C492A7BFD97001088D1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FB35C482A7BFD97001088D1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5FB35C2D2A7BF3D9001088D1 /* Project object */;
 }
